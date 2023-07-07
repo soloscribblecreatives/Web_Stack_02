@@ -596,14 +596,14 @@ function hit_close1() {
 
 
 function kol() {
-	$('.vidbg').css("display","block");
+	$('.s3_vid').css("display","block");
 	$('#s3_vid').css("display","block");
 	$('.closekol').css("display","block");
 	document.getElementById("s3_vid").play();
 }
 
 function closekol() {
-	$('.vidbg').css("display","none");
+	$('.s3_vid').css("display","none");
 	$('#s3_vid').css("display","none");
 	$('.closekol').css("display","none");
 	var vid = document.getElementById("myVideo");
