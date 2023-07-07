@@ -1,0 +1,237 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.s3_1 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	z-index: 1;
+}
+
+.s3_2 {
+	position: absolute;
+  left: 100px;
+  top: 227px;
+  width: 203px;
+  height: 480px;
+	animation: fadeInRightBig 1s;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s3_3 {
+	position: absolute;
+  left: 358px;
+  top: 238px;
+  width: 609px;
+  height: 36px;
+	animation: fadeInUpBig 0.5s;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s3_4 {
+	position: absolute;
+  left: 412px;
+  top: 311px;
+  width: 149px;
+  height: 156px;
+	animation: backInRight 1s;
+	animation-delay: 1.5s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s3_5 {
+	position: absolute;
+  left: 584px;
+  top: 310px;
+  width: 149px;
+  height: 157px;
+	animation: backInRight 1s;
+	animation-delay: 2s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s3_6 {
+	position: absolute;
+  left: 765px;
+  top: 307px;
+  width: 148px;
+  height: 160px;
+	animation: backInRight 1s;
+	animation-delay: 2.5s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s3_7 {
+	position: absolute;
+  left: 360px;
+  top: 491px;
+  width: 605px;
+  height: 136px;
+	animation: backInRight 1s;
+	animation-delay: 3s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s3_8 {
+	position: absolute;
+  left: 925px;
+  top: 287px;
+  width: 41px;
+  height: 41px;
+	animation: flashLong 2s infinite;
+	animation-delay: 4.5s;
+	animation-fill-mode: both;
+	z-index: 2;
+}
+
+.s3_9 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index: 7;
+}
+
+
+
+
+.s3_vid {
+	position: absolute;
+	background-color: #92bc3e;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index: 25;
+}
+
+#s3_vid {
+	position: absolute;
+	top: 100px;
+	width: 1024px;
+	height: 576px;
+	display: none;
+	z-index: 30;
+}
+
+.kol  {
+  position: absolute;
+  left: 860px;
+  top: 220px;
+  width: 164px;
+  height: 164px;
+  animation: slideInRight 0.1s;
+  animation-delay: 4.5s;
+  animation-fill-mode: both;
+  z-index: 20;
+}
+
+.closekol {
+	position: absolute;
+	width: 1024px;
+	height: 300px;
+	display: none;
+	z-index: 50;
+}
+
+
+
+
+.study1 {
+	position: absolute;
+  left: 348px;
+  top: 690px;
+  width: 108px;
+  height: 78px;
+	z-index: 10;
+}
+
+.study2 {
+	position: absolute;
+  left: 459px;
+  top: 690px;
+  width: 108px;
+  height: 78px;
+	z-index: 10;
+}
+
+
+.posology {
+	position: absolute;
+  left: 608px;
+  top: 690px;
+  width: 126px;
+  height: 78px;
+	z-index: 10;
+}
+
+
+.s3_pop1 {
+	position: absolute;
+	height: 100px;
+	width: 150px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 15;
+}
+
+.s3_c1ose1 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index: 20;
+}
+
+
+@-webkit-keyframes fadeInDownSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDownSmall {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDownSmallSmall {
+  -webkit-animation-name: fadeInDownSmall;
+  animation-name: fadeInDownSmall;
+}
+
+@keyframes flashLong {
+  0%,  100% {
+    opacity: 0;
+  }
+
+  25%, 50%, 75%, 85% {
+    opacity: 1;
+  }
+}

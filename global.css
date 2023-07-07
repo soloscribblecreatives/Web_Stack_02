@@ -198,7 +198,7 @@ html[xmlns] .clearfix {
 	background-repeat: no-repeat;
 	position: absolute;
 	bottom: 0px;
-	left: 38px;
+	left: 491px;
 	display: block;
 	width: 56px;
 	height: 20px;
@@ -211,6 +211,7 @@ html[xmlns] .clearfix {
 	visibility: visible;
 	z-index: 999;
 }
+
 .reference.active {
 	bottom: 0%;
 }
