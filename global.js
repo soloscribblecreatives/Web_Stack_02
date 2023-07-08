@@ -389,7 +389,7 @@ switch(pg_id){
 	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="s1_1"><img src="slide1/s1_1.png" width="1024" height="768" alt=""></div><div class="s1_2"><img src="slide1/s1_2.png"/></div><div class="s1_3"><img src="slide1/s1_3.png"/></div><div class="s1_4"><img src="slide1/s1_4.png"/></div><div class="s1_5"><img src="slide1/s1_5.png"/></div><div class="s1_6"><img src="slide1/s1_6.png"/></div>';
 	break;
 	case 2:
-	content='<link rel="stylesheet" type="text/css" href="slide2/slide2.css" media="screen"/><div class="s2_1"><img src="slide2/s2_1.png" width="1024" height="768" alt=""></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide2/slide2.css" media="screen"/><div class="s2_vid"><video width="1024" height="768" autoplay controls><source src="slide2/s2_vid.mp4" type="video/mp4"></video></div>';
 	break;
 	case 3:
 	content='<link rel="stylesheet" type="text/css" href="slide3/slide3.css" media="screen"/><div class="s3_1"><img src="slide3/s3_1.png" width="1024" height="768" alt=""></div><div class="s3_2"><img src="slide3/s3_2.png"/></div><div class="s3_3"><img src="slide3/s3_3.png"/></div><div class="s3_4"><img src="slide3/s3_4.png"/></div><div class="s3_5"><img src="slide3/s3_5.png"/></div><div class="s3_6"><img src="slide3/s3_6.png"/></div><div class="s3_7"><img src="slide3/s3_7.png"/></div><div class="s3_8"><img src="slide3/s3_8.png"/></div><div class="s3_vid"></div><div class="kol" onclick="kol();"></div><video id="s3_vid" width="1024" height="576" src="slide3/s3_vid.mp4" controls></video><div class="closekol" onclick="closekol();"><img src="slide3/close.png"></div><div class="study1" onclick="checkBtns(1);"></div><div class="study2" onclick="checkBtns(2);"></div><div class="posology" onclick="checkBtns(3);"></div>';
@@ -606,7 +606,7 @@ function closekol() {
 	$('.s3_vid').css("display","none");
 	$('#s3_vid').css("display","none");
 	$('.closekol').css("display","none");
-	var vid = document.getElementById("myVideo");
+	var vid = document.getElementById("s3_vid");
 	vid.pause();
 	vid.currentTime = 0;
 }
