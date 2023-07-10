@@ -36,10 +36,10 @@
 
 .s3_4 {
 	position: absolute;
-  left: 412px;
-  top: 311px;
-  width: 149px;
-  height: 156px;
+  left: 372px;
+  top: 315px;
+  width: 161px;
+  height: 168px;
 	animation: backInRight 1s;
 	animation-delay: 1.5s;
 	animation-fill-mode: both;
@@ -48,10 +48,10 @@
 
 .s3_5 {
 	position: absolute;
-  left: 584px;
-  top: 310px;
-  width: 149px;
-  height: 157px;
+  left: 587px;
+  top: 314px;
+  width: 161px;
+  height: 169px;
 	animation: backInRight 1s;
 	animation-delay: 2s;
 	animation-fill-mode: both;
@@ -60,10 +60,10 @@
 
 .s3_6 {
 	position: absolute;
-  left: 765px;
-  top: 307px;
-  width: 148px;
-  height: 160px;
+  left: 798px;
+  top: 311px;
+  width: 160px;
+  height: 172px;
 	animation: backInRight 1s;
 	animation-delay: 2.5s;
 	animation-fill-mode: both;
@@ -73,33 +73,38 @@
 .s3_7 {
 	position: absolute;
   left: 360px;
-  top: 491px;
-  width: 605px;
-  height: 136px;
-	animation: backInRight 1s;
-	animation-delay: 3s;
+  top: 547px;
+  width: 604px;
+  height: 79px;
+	animation: zoomInDown 1s;
+	animation-delay: 4s;
 	animation-fill-mode: both;
-	z-index: 5;
+	z-index: 4;
 }
 
 .s3_8 {
+	position: absolute;
+  left: 445px;
+  top: 455px;
+  width: 440px;
+  height: 92px;
+	animation: revealVertical 1s;
+	animation-delay: 3.5s;
+	animation-fill-mode: both;
+	clip: rect(0px,440px,0px,0px);
+	z-index: 2;
+}
+
+.s3_9 {
 	position: absolute;
   left: 925px;
   top: 287px;
   width: 41px;
   height: 41px;
 	animation: flashLong 2s infinite;
-	animation-delay: 4.5s;
+	animation-delay: 5s;
 	animation-fill-mode: both;
-	z-index: 2;
-}
-
-.s3_9 {
-	position: absolute;
-	width: 1024px;
-	height: 768px;
-	display: none;
-	z-index: 7;
+	z-index: 10;
 }
 
 
@@ -148,19 +153,19 @@
 
 .study1 {
 	position: absolute;
-  left: 348px;
-  top: 690px;
-  width: 108px;
-  height: 78px;
+  left: 738px;
+  top: 647px;
+  width: 117px;
+  height: 90px;
 	z-index: 10;
 }
 
 .study2 {
 	position: absolute;
-  left: 459px;
-  top: 690px;
-  width: 108px;
-  height: 78px;
+  left: 860px;
+  top: 647px;
+  width: 117px;
+  height: 90px;
 	z-index: 10;
 }
 
@@ -233,5 +238,18 @@
 
   25%, 50%, 75%, 85% {
     opacity: 1;
+  }
+}
+
+
+@keyframes revealVertical {
+  0% {
+    clip: rect(0px,440px,0px,0px);
+	opacity: 1;
+  }
+  
+  100% {
+    clip: rect(0px,440px,100px,0px);
+	opacity: 1;
   }
 }
