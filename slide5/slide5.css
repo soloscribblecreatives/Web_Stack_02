@@ -12,11 +12,11 @@
 
 .s2 {
 	position: absolute;
-  left: 188px;
-  top: 434px;
-  width: 649px;
-  height: 120px;
-	animation: slideInRight 1s;
+  left: 68px;
+  top: 230px;
+  width: 226px;
+  height: 395px;
+	animation: fadeInRightBig 1s;
 	animation-delay: 0s;
 	animation-fill-mode: both;
 	z-index: 2;
@@ -24,72 +24,60 @@
 
 .s3 {
 	position: absolute;
-  left: 175px;
-  top: 596px;
-  width: 95px;
-  height: 35px;
-	animation: zoomInUp 1s;
-	animation-delay: 1s;
+  left: 383px;
+  top: 220px;
+  width: 532px;
+  height: 318px;
+	animation: fadeInUp 0.5s;
+	animation-delay: 1.5s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s4 {
 	position: absolute;
-  left: 362px;
-  top: 595px;
-  width: 99px;
-  height: 59px;
-	animation: zoomInUp 1s;
-	animation-delay: 1.5s;
+  left: 436px;
+  top: 549px;
+  width: 419px;
+  height: 79px;
+	animation: zoomInDown 1s;
+	animation-delay: 2s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s5 {
 	position: absolute;
-  left: 748px;
-  top: 597px;
-  width: 84px;
-  height: 14px;
-	animation: zoomInUp 1s;
-	animation-delay: 2s;
+  left: 390px;
+  top: 367px;
+  width: 89px;
+  height: 255px;
+	animation: backInRight 1s;
+	animation-delay: 2.5s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s6 {
 	position: absolute;
-  left: 271px;
-  top: 593px;
-  width: 581px;
-  height: 58px;
-	animation: flashLong 0.2s 4;
-	animation-delay: 3.5s;
+  left: 536px;
+  top: 249px;
+  width: 444px;
+  height: 105px;
+	animation: fadeInUp 0.5s;
+	animation-delay: 4s;
 	animation-fill-mode: both;
 	z-index: 10;
 }
 
-.s7wrap {
-	position: absolute;
-  left: 397px;
-  top: 273px;
-  width: 173px;
-  height: 70px;
-	animation: fadeIn 0.5s;
-	animation-delay: 4s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
 .s7 {
 	position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 173px;
-  height: 70px;
-	animation: pulse 1s infinite;
-	animation-delay: 4s;
+  left: 582px;
+  top: 365px;
+  width: 359px;
+  height: 255px;
+	animation: backInRight 1s;
+	animation-delay: 4.5s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
