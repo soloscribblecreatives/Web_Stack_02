@@ -25,7 +25,7 @@
 .s3 {
 	position: absolute;
   left: 358px;
-  top: 221px;
+  top: 222px;
   width: 581px;
   height: 320px;
 	animation: fadeInUp 0.5s;
@@ -36,24 +36,24 @@
 
 .s4 {
 	position: absolute;
-  left: 367px;
-  top: 553px;
-  width: 559px;
-  height: 78px;
-	animation: zoomInDown 1s;
-	animation-delay: 2s;
+  left: 396px;
+  top: 288px;
+  width: 492px;
+  height: 100px;
+	animation: flashLong 0.2s 2;
+	animation-delay: 2.2s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s5 {
 	position: absolute;
-  left: 390px;
-  top: 367px;
-  width: 89px;
-  height: 255px;
-	animation: backInRight 1s;
-	animation-delay: 2.5s;
+  left: 366px;
+  top: 553px;
+  width: 559px;
+  height: 78px;
+	animation: zoomInDown 1s;
+	animation-delay: 3s;
 	animation-fill-mode: both;
 	z-index: 5;
 }

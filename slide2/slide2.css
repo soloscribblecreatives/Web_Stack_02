@@ -12,10 +12,10 @@
 
 .s2 {
 	position: absolute;
-  left: 347px;
-  top: 215px;
+  left: 348px;
+  top: 197px;
   width: 328px;
-  height: 276px;
+  height: 311px;
 	animation: slideInUp 1s;
 	animation-delay: 0s;
 	animation-fill-mode: both;

@@ -36,24 +36,24 @@
 
 .s4 {
 	position: absolute;
-  left: 436px;
-  top: 549px;
-  width: 419px;
-  height: 79px;
-	animation: zoomInDown 1s;
-	animation-delay: 2s;
+  left: 467px;
+  top: 286px;
+  width: 359px;
+  height: 99px;
+	animation: flashLong 0.2s 2;
+	animation-delay: 2.2s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
 
 .s5 {
 	position: absolute;
-  left: 390px;
-  top: 367px;
-  width: 89px;
-  height: 255px;
-	animation: backInRight 1s;
-	animation-delay: 2.5s;
+  left: 436px;
+  top: 549px;
+  width: 419px;
+  height: 79px;
+	animation: zoomInDown 1s;
+	animation-delay: 3s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
