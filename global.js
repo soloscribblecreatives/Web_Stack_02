@@ -257,7 +257,7 @@ switch(pg_id){
 	content='<link rel="stylesheet" type="text/css" href="slide2/slide2.css" media="screen"/><div class="s1"><img src="slide2/s1.png" width="1024" height="768" alt=""/></div><div class="s2"><img src="slide2/s2.png"/></div><div class="s3"><img src="slide2/s3.png"/></div><div class="s4"><img src="slide2/s4.png"/></div><div class="s5"><img src="slide2/s5.png"/></div><div class="s6"><img src="slide2/s6.png"/></div>';
 	break;
 	case 3:
-	content='<link rel="stylesheet" type="text/css" href="slide3/slide3.css" media="screen"/><div class="s1"><img src="slide3/s1.png" width="1024" height="768" alt=""/></div><div class="s2"><img src="slide3/s2.png"/></div><div class="s3"><img src="slide3/s3.png"/></div><div class="s4"><img src="slide3/s4.png"/></div><div class="s5"><img src="slide3/s5.png"/></div><div class="s6"><img src="slide3/s6.png"/></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide3/slide3.css" media="screen"/><div class="s1"><img src="slide3/s1.png" width="1024" height="768" alt=""/></div><div class="s2"><img src="slide3/s2.png"/></div><div class="s3"><img src="slide3/s3.png"/></div><div class="s4"><img src="slide3/s4.png"/></div><div class="s5"><img src="slide3/s5.png"/></div><div class="s6"><img src="slide3/s6.png"/></div><div class="s7"><img src="slide3/s7.png"/></div>';
 	break;
 	case 4:
 	content='<link rel="stylesheet" type="text/css" href="slide4/slide4.css" media="screen"/><div class="s1"><img src="slide4/s1.png" width="1024" height="768" alt=""/></div><div class="s2"><img src="slide4/s2.png"/></div><div class="s3"><img src="slide4/s3.png"/></div><div class="s4"><img src="slide4/s4.png"/></div><div class="s5"><img src="slide4/s5.png"/></div><div class="s6"><img src="slide4/s6.png"/></div><div class="s7"><img src="slide4/s7.png"/></div>';
@@ -269,19 +269,19 @@ switch(pg_id){
 	content='<link rel="stylesheet" type="text/css" href="slide6/slide6.css" media="screen"/><div class="s1"><img src="slide6/s1.png" width="1024" height="768" alt=""/></div><div class="s2"><img src="slide6/s2.png"/></div><div class="s3"><img src="slide6/s3.png"/></div><div class="s4"><img src="slide6/s4.png"/></div><div class="s5"><img src="slide6/s5.png"/></div><div class="s6"><img src="slide6/s6.png"/></div><div class="s7"><img src="slide6/s7.png"/></div><div class="s8"><img src="slide6/s8.png"/></div><div class="s9"><img src="slide6/s9.png"/></div><div class="s10"><img src="slide6/s10.png"/></div>';
 	break;
 	case 7:
-	content='<link rel="stylesheet" type="text/css" href="slide7/slide7.css" media="screen"/><div class="s1"><img src="slide7/s1.png" width="1024" height="768" alt=""></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide7/slide7.css" media="screen"/><div class="s1"><img src="slide7/s1.png" width="1024" height="768" alt=""></div><video width="671" height="380" controls><source src="slide7/vid.mp4" type="video/mp4"></video>';
 	break;
 	case 8:
 	content='<link rel="stylesheet" type="text/css" href="slide8/slide8.css" media="screen"/><div class="s1"><img src="slide8/s1.png" width="1024" height="768" alt=""/></div><div class="s2"><img src="slide8/s2.png"/></div><div class="s3"><img src="slide8/s3.png"/></div><div class="s4"><img src="slide8/s4.png"/></div>';
 	break;
 	case 9:
-	content='<link rel="stylesheet" type="text/css" href="slide9/slide9.css" media="screen"/><div class="s1"><img src="slide9/s1.png" width="1024" height="768" alt=""></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide9/slide9.css" media="screen"/><div class="s1"><img src="slide9/s1.png" width="1024" height="768" alt=""></div><video width="671" height="380" controls><source src="slide9/vid.mp4" type="video/mp4"></video>';
 	break;
 	case 10:
 	content='<link rel="stylesheet" type="text/css" href="slide10/slide10.css" media="screen"/><div class="s1"><img src="slide10/s1.png" width="1024" height="768" alt=""/></div><div class="s2"><img src="slide10/s2.png"/></div><div class="s3"><img src="slide10/s3.png"/></div><div class="s4"><img src="slide10/s4.png"/></div><div class="s5"><img src="slide10/s5.png"/></div>';
 	break;
 	case 11:
-	content='<link rel="stylesheet" type="text/css" href="slide11/slide11.css" media="screen"/><div class="s1"><img src="slide11/s1.png" width="1024" height="768" alt=""></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide11/slide11.css" media="screen"/><div class="s1"><img src="slide11/s1.png" width="1024" height="768" alt=""></div><video width="671" height="380" controls><source src="slide11/vid.mp4" type="video/mp4"></video>';
 	break;
 	case 12:
 	content='<link rel="stylesheet" type="text/css" href="slide12/slide12.css" media="screen"/><div class="s1"><img src="slide12/s1.png" width="1024" height="768" alt=""/></div><div class="s2"><img src="slide12/s2.png"/></div><div class="s3"><img src="slide12/s3.png"/></div><div class="s4"><img src="slide12/s4.png"/></div>';
@@ -290,7 +290,7 @@ switch(pg_id){
 	content='<link rel="stylesheet" type="text/css" href="slide13/slide13.css" media="screen"/><div class="s1"><img src="slide13/s1.png" width="1024" height="768" alt=""/></div><div class="s2"><img src="slide13/s2.png"/></div><div class="s3"><img src="slide13/s3.png"/></div><div class="s4"><img src="slide13/s4.png"/></div><div class="s5"><img src="slide13/s5.png"/></div>';
 	break;
 	case 14:
-	content='<link rel="stylesheet" type="text/css" href="slide14/slide14.css" media="screen"/><div class="s1"><img src="slide14/s1.png" width="1024" height="768" alt=""></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide14/slide14.css" media="screen"/><div class="s1"><img src="slide14/s1.png" width="1024" height="768" alt=""></div><video width="671" height="380" controls><source src="slide14/vid.mp4" type="video/mp4"></video>';
 	break;
 	case 15:
 	content='<link rel="stylesheet" type="text/css" href="slide15/slide15.css" media="screen"/><div class="s1"><img src="slide15/s1.png" width="1024" height="768" alt=""/></div><div class="s2"><img src="slide15/s2.png"/></div><div class="s3"><img src="slide15/s3.png"/></div><div class="s4"><img src="slide15/s4.png"/></div>';
@@ -302,7 +302,7 @@ switch(pg_id){
 	content='<link rel="stylesheet" type="text/css" href="slide17/slide17.css" media="screen"/><div class="s1"><img src="slide17/s1.png" width="1024" height="768" alt=""></div><div class="s2"><img src="slide17/s2.png"/></div><div class="s3"><img src="slide17/s3.png"/></div>';
 	break;
 	case 18:
-	content='<link rel="stylesheet" type="text/css" href="slide18/slide18.css" media="screen"/><div class="s1"><img src="slide18/s1.png" width="1024" height="768" alt=""></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide18/slide18.css" media="screen"/><div class="s1"><img src="slide18/s1.png" width="1024" height="768" alt=""></div><video width="671" height="380" controls><source src="slide18/vid.mp4" type="video/mp4"></video>';
 	break;
 	case 19:
 	content='<link rel="stylesheet" type="text/css" href="slide19/slide19.css" media="screen"/><div class="s1"><img src="slide19/s1.png" width="1024" height="768" alt=""/></div><div class="s2"><img src="slide19/s2.png"/></div><div class="s3"><img src="slide19/s3.png"/></div><div class="s4"><img src="slide19/s4.png"/></div>';
@@ -311,7 +311,7 @@ switch(pg_id){
 	content='<link rel="stylesheet" type="text/css" href="slide20/slide20.css" media="screen"/><div class="s1"><img src="slide20/s1.png" width="1024" height="768" alt=""/></div><div class="s2"><img src="slide20/s2.png"/></div><div class="s3"><img src="slide20/s3.png"/></div><div class="s4"><img src="slide20/s4.png"/></div><div class="s5"><img src="slide20/s5.png"/></div>';
 	break;
 	case 21:
-	content='<link rel="stylesheet" type="text/css" href="slide21/slide21.css" media="screen"/><div class="s1"><img src="slide21/s1.png" width="1024" height="768" alt=""></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide21/slide21.css" media="screen"/><div class="s1"><img src="slide21/s1.png" width="1024" height="768" alt=""></div><video width="671" height="380" controls><source src="slide21/vid.mp4" type="video/mp4"></video>';
 	break;
 }
 

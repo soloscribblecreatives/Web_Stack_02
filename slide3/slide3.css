@@ -64,34 +64,22 @@
   top: 593px;
   width: 581px;
   height: 58px;
-	animation: flashLong 0.2s 4;
+	animation: flashLong 0.5s 3;
 	animation-delay: 3.5s;
 	animation-fill-mode: both;
 	z-index: 10;
 }
 
-.s7wrap {
-	position: absolute;
-  left: 397px;
-  top: 273px;
-  width: 173px;
-  height: 70px;
-	animation: fadeIn 0.5s;
-	animation-delay: 4s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
 .s7 {
 	position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 173px;
-  height: 70px;
-	animation: pulse 1s infinite;
-	animation-delay: 4s;
+  left: 42px;
+  top: 265px;
+  width: 151px;
+  height: 21px;
+	animation: flash 2s 2;
+	animation-delay: 3.5s;
 	animation-fill-mode: both;
-	z-index: 5;
+	z-index: 10;
 }
 
 .s8 {

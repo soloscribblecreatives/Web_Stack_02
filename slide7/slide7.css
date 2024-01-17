@@ -3,6 +3,15 @@
 	padding: 0px;
 }
 
+video {
+  position: absolute;
+  left: 312px;
+  top: 281px;
+  width: 671px;
+  height: 380px;
+  z-index: 10;
+}
+
 .s1 {
 	position: absolute;
 	width: 1280px;
