@@ -2,7 +2,7 @@
 
 <html lang="en">
 <head runat="server">
-    <title>sebium</title>
+    <title>teaser3</title>
     <meta charset="UTF-8">
     <meta name="author" content="NAOS">
 
@@ -16,6 +16,7 @@
     <script type="text/javascript" charset="utf-8" src="index_edgePreload.js"></script> -->
     <script src="edge_includes/jquery-2.0.3.min.js"></script>
    <style>
+
 @keyframes fadeInAnimation {
         0% {
             opacity: 0;
@@ -247,13 +248,40 @@
   -webkit-animation-name: fadeInDownSmall;
   animation-name: fadeInDownSmall;
 }
+
+.posology {
+	position: fixed;
+  left: 91px;
+  top: 666px;
+  width: 119px;
+  height: 92px;
+	z-index: 20;
+}
+
+.study {
+	position: fixed;
+  left: 222px;
+  top: 666px;
+  width: 119px;
+  height: 92px;
+	z-index: 20;
+}
+
+.home {
+	position: fixed;
+  left: 916px;
+  top: 0px;
+  width: 164px;
+  height: 120px;
+	z-index: 20;
+}
     
     </style>
 </head>
 <body onload="load();" style="margin:0px;">
-<input type="hidden" name="" id="pagename" value="index1.html">
+<input type="hidden" name="" id="pagename" value="index3.html">
 <div id="Stage" class="EDGE-144335490" style="position: fixed;">
-    <link rel="stylesheet" type="text/css" href="images/slide1.css" media="screen"/><div class="s1"><img src="images/s1.png" width="1080" height="810" alt=""/></div><div class="s2"><img src="images/s2.png"/></div><div class="s3"><img src="images/s3.png"/></div><div class="s4"><img src="images/s4.png"/></div>
+    <link rel="stylesheet" type="text/css" href="images/slide3.css" media="screen"/><div class="s1"><img src="images/s1.png" width="1080" height="810" alt=""/></div><div class="s2"><img src="images/s2.png"/></div><div class="s3"><img src="images/s3.png"/></div><div class="s4"><img src="images/s4.png"/></div><div class="s5"><img src="images/s5.png"/></div><div class="s6"><img src="images/s6.png"/></div><div class="s7"><img src="images/s7.png"/></div>
 </div>
 <map id="map_ID" name="map">
     <!-- <area shape="poly" coords="64,773, 99,1156, 234,778, 202,1157" href="javascript:;" id="posology" alt="Posology" title="Posology" /> -->
@@ -334,11 +362,11 @@ function handleTouchMove(evt) {
 
     if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/        
         if ( xDiff > 0 ) {
-            window.location.href="../sebium2/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+            // window.location.href="../teaser319/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
             // console.log("right swipe ");
         } else {
             // console.log("left swipe");
-            // window.location.href="../sebium1/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+            window.location.href="../teaser2/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
         }                       
     } else {
         if ( yDiff > 0 ) {
@@ -553,10 +581,12 @@ var mousex=0;
     </script>
 	
 	<script>
-		function principle() {
-			window.location.href="../sebium2/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		function posology() {
+			window.location.href="../teaser318/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}	
+		function study() {
+			window.location.href="../teaser317/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
 		}
-		
 	</script>
 
 <style type="text/css">

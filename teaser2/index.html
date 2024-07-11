@@ -2,7 +2,7 @@
 
 <html lang="en">
 <head runat="server">
-    <title>sebium</title>
+    <title>teaser2</title>
     <meta charset="UTF-8">
     <meta name="author" content="NAOS">
 
@@ -15,12 +15,9 @@
     <!-- <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <script type="text/javascript" charset="utf-8" src="index_edgePreload.js"></script> -->
     <script src="edge_includes/jquery-2.0.3.min.js"></script>
-   <style>
-body {
-        animation: fadeInAnimation ease 2s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-    }
+
+<style>
+
 @keyframes fadeInAnimation {
         0% {
             opacity: 0;
@@ -38,130 +35,129 @@ body {
 	padding: 0px;
 }
 
-.spin1 {
-	position: fixed;
-	width: 1080px;
-	height: 810px;
-	z-index: 10;
-}
-
-.spin2 {
-	position: fixed;
-	width: 1080px;
-	height: 810px;
-	display: none;
-	z-index: 20;
-}
-
-.spin3 {
-	position: fixed;
-	width: 1080px;
-	height: 810px;
-	display: none;
-	z-index: 30;
-}
-
-.s2_1 {
-	position: fixed;
+.s1_1 {
+	position: absolute;
 	width: 1080px;
 	height: 810px;
 	z-index: 1;
 }
 
-.s2_2 {
-	position: fixed;
-  left: 486px;
-  top: 148px;
-  width: 479px;
-  height: 574px;
-	animation: slideInRight 0.5s;
+.s1_2 {
+	position: absolute;
+  left: 546px;
+  top: 25px;
+  width: 534px;
+  height: 674px;
+  clip: rect(680px,540px,680px,0px);
+	animation: revealVerticalRev 0.5s;
 	animation-delay: 0s;
 	animation-fill-mode: both;
-	z-index: 2;
-}
-
-.s2_3 {
-	position: fixed;
-  left: 214px;
-  top: 380px;
-  width: 327px;
-  height: 97px;
-	animation: slideInLeft 0.5s;
-	animation-delay: 0s;
-	animation-fill-mode: both;
-	z-index: 2;
-}
-
-.s2_4 {
-	position: fixed;
-	width: 1080px;
-	height: 810px;
-	display: none;
 	z-index: 4;
 }
 
-.s2_5 {
-	position: fixed;
-  left: 486px;
-  top: 161px;
-  width: 464px;
-  height: 561px;
-	animation: slideInRight 0.5s;
-	animation-delay: 0s;
+.s1_3 {
+	position: absolute;
+  left: 0px;
+  top: 50px;
+  width: 533px;
+  height: 389px;
+	animation: fadeInLeft 0.5s;
+	animation-delay: 0.5s;
 	animation-fill-mode: both;
-	display: none;
+	z-index: 4;
+}
+
+.s1_4 {
+	position: absolute;
+  left: 30px;
+  top: 194px;
+  width: 462px;
+  height: 31px;
+	animation: flashLong 2.5s infinite;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+	z-index: 4;
+}
+
+.s1_5 {
+	position: absolute;
+  left: 18px;
+  top: 667px;
+  width: 508px;
+  height: 55px;
+	animation: fadeInDown 0.5s;
+	animation-delay: 2s;
+	animation-fill-mode: both;
+	z-index: 3;
+}
+
+.s1_6 {
+	position: absolute;
+  left: 339px;
+  top: 284px;
+  width: 155px;
+  height: 414px;
+	animation: fadeInRight 0.5s;
+	animation-delay: 2.5s;
+	animation-fill-mode: both;
+	z-index: 2;
+}
+
+.s1_7 {
+	position: absolute;
+  left: 104px;
+  top: 286px;
+  width: 154px;
+  height: 412px;
+	animation: fadeInLeft 0.5s;
+	animation-delay: 2.5s;
+	animation-fill-mode: both;
+	z-index: 2;
+}
+
+.s1_8 {
+	position: absolute;
+  left: 223px;
+  top: 393px;
+  width: 159px;
+  height: 293px;
+	animation: zoomIn 0.5s;
+	animation-delay: 2.5s;
+	animation-fill-mode: both;
 	z-index: 5;
 }
 
-.s2_6 {
-	position: fixed;
-  left: 73px;
-  top: 383px;
-  width: 471px;
-  height: 42px;
-	animation: slideInLeft 0.5s;
-	animation-delay: 0s;
+.s1_9 {
+	position: absolute;
+  left: 35px;
+  top: 309px;
+  width: 84px;
+  height: 85px;
+	animation: flashLong 2s infinite;
+	animation-delay: 3s;
 	animation-fill-mode: both;
-	display: none;
 	z-index: 5;
 }
 
-.s2_7 {
-	position: fixed;
-	width: 1080px;
-	height: 810px;
-	display: none;
-	z-index: 7;
+.principle {
+	position: absolute;
+  left: 0px;
+  top: 164px;
+  width: 505px;
+  height: 97px;
+	z-index: 20;
 }
 
-.s2_8 {
-	position: fixed;
-  left: 486px;
-  top: 148px;
-  width: 477px;
-  height: 574px;
-	animation: slideInRight 0.5s;
-	animation-delay: 0s;
-	animation-fill-mode: both;
+.s1_10 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
 	display: none;
-	z-index: 8;
+	z-index: 10;
 }
 
-.s2_9 {
-	position: fixed;
-  left: 60px;
-  top: 379px;
-  width: 476px;
-  height: 53px;
-	animation: slideInLeft 0.5s;
-	animation-delay: 0s;
-	animation-fill-mode: both;
-	display: none;
-	z-index: 8;
-}
-
-.s2_pop1 {
-	position: fixed;
+.s1_pop1 {
+	position: absolute;
 	height: 100px;
 	width: 150px;
 	right: 0px;
@@ -169,12 +165,55 @@ body {
 	z-index: 15;
 }
 
-.s2_c1ose1 {
-	position: fixed;
+.s1_c1ose1 {
+	position: absolute;
 	width: 1024px;
 	height: 768px;
 	display: none;
 	z-index: 20;
+}
+
+
+@keyframes flashLong {
+  0%,  100% {
+    opacity: 0;
+  }
+
+  25%, 50%, 75% {
+    opacity: 1;
+  }
+}
+
+@keyframes revealVertical {
+  0% {
+    clip: rect(0px,540px,0px,0px);
+	opacity: 1;
+  }
+  
+  100% {
+    clip: rect(0px,540px,680px,0px);
+	opacity: 1;
+  }
+}
+
+@keyframes revealVerticalRev {
+  0% {
+    clip: rect(680px,540px,680px,0px);
+  }
+  
+  100% {
+    clip: rect(0px,540px,680px,0px);
+  }
+}
+
+
+@keyframes graphUp {
+    0%  {
+		clip: rect(540px,0px,0px,0px); 
+	}
+    100%	{
+		clip: rect(0px,540px,680px,0px); 
+	}
 }
 
 
@@ -210,7 +249,7 @@ body {
   -webkit-animation-name: fadeInDownSmall;
   animation-name: fadeInDownSmall;
 }
-    
+
 .posology {
 	position: fixed;
   left: 91px;
@@ -236,14 +275,15 @@ body {
   width: 164px;
   height: 120px;
 	z-index: 20;
-}	
-	
+}
+    
     </style>
+
 </head>
 <body style="margin:0px;">
-<input type="hidden" name="" id="pagename" value="index13.html">
+<input type="hidden" name="" id="pagename" value="index2.html">
 <div id="Stage" class="EDGE-144335490" style="position: fixed;">
-	<link rel="stylesheet" type="text/css" href="images/slide13.css" media="screen"/><div class="s1"><img src="images/s1.png" width="1080" height="810" alt=""/></div><div class="s2"><img src="images/s2.png"/></div><div class="s3"><img src="images/s3.png"/></div><div class="s4"><img src="images/s4.png"/></div><div class="s5"><img src="images/s5.png"/></div><div class="s6"><img src="images/s6.png"/></div><div class="home" onclick="home()"></div>
+	<link rel="stylesheet" type="text/css" href="images/slide2.css" media="screen"/><div class="s1"><img src="images/s1.png" width="1080" height="810" alt=""/></div><div class="s2"><img src="images/s2.png"/></div><div class="s3"><img src="images/s3.png"/></div><div class="s4"><img src="images/s4.png"/></div><div class="s5"><img src="images/s5.png"/></div><div class="s6"><img src="images/s6.png"/></div><div class="s7"><img src="images/s7.png"/></div><div class="s8"><img src="images/s8.png"/></div><div class="s9"><img src="images/s9.png"/></div><div class="s10"><img src="images/s10.png"/></div>
 </div>
 <div id="divIntro" style="width:auto;display:none;position: fixed; color: #1f1e1e;background-color: lavender; color: #696565;border-radius: 5px; font-family: Arial, Helvetica, sans-serif;font-weight: 600;padding:5px;font-size: 17px;"></div>
 <span id="clickEventDuration" style="display: none;"></span>
@@ -310,11 +350,11 @@ function handleTouchMove(evt) {
 
     if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/        
         if ( xDiff > 0 ) {
-           window.location.href="../sebium3/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+           window.location.href="../teaser3/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
             // console.log("right swipe ");
         } else {
             // console.log("left swipe");
-           window.location.href="../sebium1/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+           window.location.href="../teaser1/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
         }                       
     } else {
         if ( yDiff > 0 ) {
@@ -520,7 +560,7 @@ var mousex=0;
     </script>
 			<script>
 		function home() {
-			window.location.href="../sebium16/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+			window.location.href="../teaser216/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
 		}	
 	</script>
 	<script>
