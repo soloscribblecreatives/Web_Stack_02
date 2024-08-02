@@ -5,8 +5,8 @@
 
 .video {
 	position: absolute;
-  left: 456px;
-  top: 672px;
+  left: 375px;
+  top: 641px;
   width: 136px;
   height: 119px;
 	z-index: 25;
@@ -61,7 +61,7 @@
   top: 472px;
   width: 516px;
   height: 143px;
-	animation: slideInLeft 0.5s;
+	animation: fadeInLeft 0.5s;
 	animation-delay: 1.2s;
 	animation-fill-mode: both;
 	z-index: 5;
@@ -69,8 +69,8 @@
 
 .s6 {
 	position: absolute;
-  left: 497px;
-  top: 703px;
+  left: 416px;
+  top: 672px;
   width: 60px;
   height: 60px;
 	animation: pulse 1s infinite;
