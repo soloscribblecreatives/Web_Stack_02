@@ -1,0 +1,161 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.s1 {
+	position: absolute;
+	width: 1080px;
+	height: 810px;
+	z-index: 1;
+}
+
+.home {
+	position: absolute;
+  left: 936px;
+  top: 0px;
+  width: 144px;
+  height: 181px;
+	z-index: 25;
+}
+
+.s2 {
+	position: absolute;
+  left: 414px;
+  top: 248px;
+  width: 566px;
+  height: 67px;
+	animation: slideInRight 0.5s;
+	animation-delay: 0.1s;
+	animation-fill-mode: both;
+	z-index: 10;
+}
+
+.s3 {
+	position: absolute;
+  left: 459px;
+  top: 338px;
+  width: 23px;
+  height: 29px;
+	animation: upDown 1s infinite;
+	animation-delay: 0.7s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s4 {
+	position: absolute;
+  left: 493px;
+  top: 342px;
+  width: 425px;
+  height: 27px;
+	animation: fadeInRight 0.5s;
+	animation-delay: 0.4s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+/* Original Slider */
+
+.image-comparison-container-1 {
+    position: absolute;
+	left: 515px;
+	top: 389px;		
+    width: 375px; /* Set the maximum width */
+    height: 336px; /* Set the height */
+    overflow: none;
+	z-index: 10;
+}
+
+.image-comparison-img-1 {
+    position: absolute;
+    width: 375px; /* Set the maximum width */
+    height: 336px; /* Set the height */
+    object-fit: cover;
+	border: 2px solid red;
+}
+
+.image-comparison-img-1:nth-child(2) {
+    clip: rect(0, 65px, 300px, 0); /* Adjust the initial clip size */
+	border: 2px solid red;
+}
+
+.slider-1 {
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background: #fff;
+    cursor: ew-resize;
+    left: 60px; /* Start position for the slider */
+    z-index: 10;
+}
+
+/* Expanded Slider */
+
+.black-Backdrop {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1080px;
+	height: 810px;
+	display: none;
+	z-index: 30;
+}
+
+.image-comparison-container-2 {
+    position: absolute;
+	left: 167px;
+	top: 71px;		
+    width: 747px; /* Set the maximum width */
+    height: 669px; /* Set the height */
+    overflow: none;
+	display: none;
+	z-index: 30;
+}
+
+.image-comparison-img-2 {
+    position: absolute;
+    width: 747px; /* Set the maximum width */
+    height: 669px; /* Set the height */
+    object-fit: cover;
+}
+
+.image-comparison-img-2:nth-child(2) {
+    clip: rect(0, 130px, 700px, 0); /* Adjust the initial clip size */
+}
+
+.slider-2 {
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background: #fff;
+    cursor: ew-resize;
+    left: 130px; /* Start position for the slider */
+    z-index: 30;
+}
+
+@keyframes upDown {
+  0% {  
+	left: 459px;
+	top: 331px;
+	width: 23px;
+	height: 29px;
+	opacity: 1;
+  }
+  
+  50% {
+	left: 459px;
+	top: 345px;
+	width: 23px;
+	height: 29px;
+	opacity: 1;
+  }
+  
+  100% {  
+	left: 459px;
+	top: 331px;
+	width: 23px;
+	height: 29px;
+	opacity: 1;
+  }
+}
