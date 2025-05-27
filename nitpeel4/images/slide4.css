@@ -74,7 +74,7 @@
   width: 340px;
   height: 104px;
 	animation: zoomIn 0.5s;
-	animation-delay: 2.2s;
+	animation-delay: 2s;
 	animation-fill-mode: both;
 	transform-origin: right;
 	z-index: 5;
@@ -87,7 +87,7 @@
   width: 425px;
   height: 145px;
 	animation: zoomIn 0.5s;
-	animation-delay: 2.7s;
+	animation-delay: 2.5s;
 	animation-fill-mode: both;
 	transform-origin: left;
 	z-index: 5;
@@ -100,7 +100,7 @@
   width: 382px;
   height: 119px;
 	animation: zoomIn 0.5s;
-	animation-delay: 3.2s;
+	animation-delay: 2.7s;
 	animation-fill-mode: both;
 	transform-origin: left;
 	z-index: 5;
@@ -113,7 +113,7 @@
   width: 150px;
   height: 150px;
 	animation: stampIn 0.3s;
-	animation-delay: 4s;
+	animation-delay: 3.2s;
 	animation-fill-mode: both;
 	z-index: 5;
 }
