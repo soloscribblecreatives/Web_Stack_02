@@ -72,12 +72,10 @@
     width: 375px; /* Set the maximum width */
     height: 336px; /* Set the height */
     object-fit: cover;
-	border: 2px solid red;
 }
 
 .image-comparison-img-1:nth-child(2) {
-    clip: rect(0, 65px, 300px, 0); /* Adjust the initial clip size */
-	border: 2px solid red;
+    clip: rect(0, 65px, 340px, 0); /* Adjust the initial clip size */
 }
 
 .slider-1 {
