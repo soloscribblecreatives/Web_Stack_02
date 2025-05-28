@@ -45,10 +45,10 @@
 
 .s4 {
 	position: absolute;
-  left: 519px;
+  left: 486px;
   top: 339px;
-  width: 423px;
-  height: 27px;
+  width: 457px;
+  height: 54px;
 	animation: fadeInRight 0.5s;
 	animation-delay: 0.4s;
 	animation-fill-mode: both;
@@ -58,7 +58,7 @@
 .s5 {
 	position: absolute;
   left: 476px;
-  top: 393px;
+  top: 413px;
   width: 233px;
   height: 292px;
 	animation: zoomIn 0.5s;
@@ -70,7 +70,7 @@
 .s6 {
 	position: absolute;
   left: 719px;
-  top: 393px;
+  top: 413px;
   width: 233px;
   height: 292px;
 	animation: fadeInLeft 0.5s;
@@ -82,7 +82,7 @@
 .s7 {
 	position: absolute;
   left: 620px;
-  top: 700px;
+  top: 720px;
   width: 194px;
   height: 8px;
 	animation: fadeInUp 0.5s;
