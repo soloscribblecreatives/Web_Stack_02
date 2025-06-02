@@ -16,268 +16,6 @@
     <script type="text/javascript" charset="utf-8" src="index_edgePreload.js"></script> -->
     <script src="edge_includes/jquery-2.0.3.min.js"></script>
 
-<style>
-
-@keyframes fadeInAnimation {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
-.EDGE-144335490 {
-        width: -webkit-fill-available!important;
-    }
-	
-*{
-	margin: 0px;
-	padding: 0px;
-}
-
-.s1_1 {
-	position: absolute;
-	width: 1080px;
-	height: 810px;
-	z-index: 1;
-}
-
-.s1_2 {
-	position: absolute;
-  left: 546px;
-  top: 25px;
-  width: 534px;
-  height: 674px;
-  clip: rect(680px,540px,680px,0px);
-	animation: revealVerticalRev 0.5s;
-	animation-delay: 0s;
-	animation-fill-mode: both;
-	z-index: 4;
-}
-
-.s1_3 {
-	position: absolute;
-  left: 0px;
-  top: 50px;
-  width: 533px;
-  height: 389px;
-	animation: fadeInLeft 0.5s;
-	animation-delay: 0.5s;
-	animation-fill-mode: both;
-	z-index: 4;
-}
-
-.s1_4 {
-	position: absolute;
-  left: 30px;
-  top: 194px;
-  width: 462px;
-  height: 31px;
-	animation: flashLong 2.5s infinite;
-	animation-delay: 1s;
-	animation-fill-mode: both;
-	z-index: 4;
-}
-
-.s1_5 {
-	position: absolute;
-  left: 18px;
-  top: 667px;
-  width: 508px;
-  height: 55px;
-	animation: fadeInDown 0.5s;
-	animation-delay: 2s;
-	animation-fill-mode: both;
-	z-index: 3;
-}
-
-.s1_6 {
-	position: absolute;
-  left: 339px;
-  top: 284px;
-  width: 155px;
-  height: 414px;
-	animation: fadeInRight 0.5s;
-	animation-delay: 2.5s;
-	animation-fill-mode: both;
-	z-index: 2;
-}
-
-.s1_7 {
-	position: absolute;
-  left: 104px;
-  top: 286px;
-  width: 154px;
-  height: 412px;
-	animation: fadeInLeft 0.5s;
-	animation-delay: 2.5s;
-	animation-fill-mode: both;
-	z-index: 2;
-}
-
-.s1_8 {
-	position: absolute;
-  left: 223px;
-  top: 393px;
-  width: 159px;
-  height: 293px;
-	animation: zoomIn 0.5s;
-	animation-delay: 2.5s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s1_9 {
-	position: absolute;
-  left: 35px;
-  top: 309px;
-  width: 84px;
-  height: 85px;
-	animation: flashLong 2s infinite;
-	animation-delay: 3s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.principle {
-	position: absolute;
-  left: 0px;
-  top: 164px;
-  width: 505px;
-  height: 97px;
-	z-index: 20;
-}
-
-.s1_10 {
-	position: absolute;
-	width: 1024px;
-	height: 768px;
-	display: none;
-	z-index: 10;
-}
-
-.s1_pop1 {
-	position: absolute;
-	height: 100px;
-	width: 150px;
-	right: 0px;
-	bottom: 0px;
-	z-index: 15;
-}
-
-.s1_c1ose1 {
-	position: absolute;
-	width: 1024px;
-	height: 768px;
-	display: none;
-	z-index: 20;
-}
-
-
-@keyframes flashLong {
-  0%,  100% {
-    opacity: 0;
-  }
-
-  25%, 50%, 75% {
-    opacity: 1;
-  }
-}
-
-@keyframes revealVertical {
-  0% {
-    clip: rect(0px,540px,0px,0px);
-	opacity: 1;
-  }
-  
-  100% {
-    clip: rect(0px,540px,680px,0px);
-	opacity: 1;
-  }
-}
-
-@keyframes revealVerticalRev {
-  0% {
-    clip: rect(680px,540px,680px,0px);
-  }
-  
-  100% {
-    clip: rect(0px,540px,680px,0px);
-  }
-}
-
-
-@keyframes graphUp {
-    0%  {
-		clip: rect(540px,0px,0px,0px); 
-	}
-    100%	{
-		clip: rect(0px,540px,680px,0px); 
-	}
-}
-
-
-@-webkit-keyframes fadeInDownSmall {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -25%, 0);
-    transform: translate3d(0, -25%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@keyframes fadeInDownSmall {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -25%, 0);
-    transform: translate3d(0, -25%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-.fadeInDownSmallSmall {
-  -webkit-animation-name: fadeInDownSmall;
-  animation-name: fadeInDownSmall;
-}
-
-.posology {
-	position: fixed;
-  left: 91px;
-  top: 666px;
-  width: 119px;
-  height: 92px;
-	z-index: 20;
-}
-
-.study {
-	position: fixed;
-  left: 222px;
-  top: 666px;
-  width: 119px;
-  height: 92px;
-	z-index: 20;
-}
-
-.home {
-	position: fixed;
-  left: 916px;
-  top: 0px;
-  width: 164px;
-  height: 120px;
-	z-index: 20;
-}
-    
-    </style>
 
 </head>
 <body style="margin:0px;">
@@ -287,9 +25,9 @@
 	
 	<div class="black-Backdrop" onclick="shrinkTab()"><img src="images/s9.png"/></div>
 	<div class="image-comparison-container-1" onclick="expandTab()">
-		<img src="images/s5.png" alt="Before" class="image-comparison-img-1">
-		<img src="images/s6.png" alt="After" class="image-comparison-img-1">
-		<div class="slider-1"></div>
+	<img id="img1" src="images/s5.png" width="375" height="336" style="display: none;">
+	<img id="img2" src="images/s6.png" width="375" height="336" style="display: none;">
+	<canvas id="compareCanvas" width="375" height="336"></canvas>
 	</div>
 	<div class="image-comparison-container-2" onclick="shrinkTab()">
 		<img src="images/s7.png" alt="Before" class="image-comparison-img-2">
@@ -614,7 +352,7 @@ function initializeImageComparison(containerSelector, sliderSelector, comparison
 }
 
 // Initialize both sliders
-initializeImageComparison('.image-comparison-container-1', '.slider-1', '.image-comparison-img-1');
+
 initializeImageComparison('.image-comparison-container-2', '.slider-2', '.image-comparison-img-2');
 
 
@@ -628,6 +366,92 @@ function shrinkTab() {
 	$('.black-Backdrop').css("display","none");
 }
 </script>
+
+
+
+  <script>
+    const canvas = document.getElementById('compareCanvas');
+    const ctx = canvas.getContext('2d');
+    const img1 = document.getElementById('img1');
+    const img2 = document.getElementById('img2');
+    let sliderX = canvas.width / 5;
+    let isDragging = false;
+
+    function draw() {
+      // Draw first image fully
+      ctx.drawImage(img1, 0, 0, canvas.width, canvas.height);
+
+      // Clip and draw second image
+      ctx.save();
+      ctx.beginPath();
+      ctx.rect(0, 0, sliderX, canvas.height);
+      ctx.clip();
+      ctx.drawImage(img2, 0, 0, canvas.width, canvas.height);
+      ctx.restore();
+
+      // Optional: draw a slider handle
+      ctx.beginPath();
+      ctx.moveTo(sliderX, 0);
+      ctx.lineTo(sliderX, canvas.height);
+      ctx.lineWidth = 5;
+      ctx.strokeStyle = 'rgba(255, 255, 255, 1)';
+      ctx.stroke();
+    }
+
+    function updateSlider(x) {
+      const rect = canvas.getBoundingClientRect();
+      sliderX = Math.max(0, Math.min(canvas.width, x - rect.left));
+      draw();
+    }
+
+    canvas.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      updateSlider(e.clientX);
+    });
+
+    canvas.addEventListener('mousemove', (e) => {
+      if (isDragging) updateSlider(e.clientX);
+    });
+
+    canvas.addEventListener('mouseup', () => {
+      isDragging = false;
+    });
+
+    canvas.addEventListener('mouseleave', () => {
+      isDragging = false;
+    });
+
+    canvas.addEventListener('touchstart', (e) => {
+      if (e.touches.length === 1) {
+        isDragging = true;
+        updateSlider(e.touches[0].clientX);
+      }
+    });
+
+    canvas.addEventListener('touchmove', (e) => {
+      if (isDragging && e.touches.length === 1) {
+        updateSlider(e.touches[0].clientX);
+      }
+    });
+
+    canvas.addEventListener('touchend', () => {
+      isDragging = false;
+    });
+
+    // Ensure both images are loaded before drawing
+    let loadedCount = 0;
+    [img1, img2].forEach(img => {
+      if (img.complete) {
+        loadedCount++;
+        if (loadedCount === 2) draw();
+      } else {
+        img.onload = () => {
+          loadedCount++;
+          if (loadedCount === 2) draw();
+        };
+      }
+    });
+  </script>
 
 </body>
 </html>

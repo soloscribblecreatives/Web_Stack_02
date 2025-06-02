@@ -67,26 +67,10 @@
 	z-index: 10;
 }
 
-.image-comparison-img-1 {
-    position: absolute;
-    width: 375px; /* Set the maximum width */
-    height: 336px; /* Set the height */
-    object-fit: cover;
-}
-
-.image-comparison-img-1:nth-child(2) {
-    clip: rect(0, 65px, 340px, 0); /* Adjust the initial clip size */
-}
-
-.slider-1 {
-    position: absolute;
-    width: 5px;
-    height: 100%;
-    background: #fff;
-    cursor: ew-resize;
-    left: 60px; /* Start position for the slider */
-    z-index: 10;
-}
+#compareCanvas {
+      display: block;
+      touch-action: none;
+    }
 
 /* Expanded Slider */
 
