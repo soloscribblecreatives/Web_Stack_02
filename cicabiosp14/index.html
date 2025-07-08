@@ -259,7 +259,7 @@
 <body style="margin:0px;">
 <input type="hidden" name="" id="pagename" value="index14.html">
 <div id="Stage" class="EDGE-144335490" style="position: fixed;">
-    <link rel="stylesheet" type="text/css" href="images/slide14.css" media="screen"/><div class="s1"><img src="images/s1.png" width="1080" height="810" alt=""/></div><div class="s2" onclick="spot0()"><img src="images/s2.png"/></div><div class="s3"><img src="images/s3.png"/></div><div class="s4"><img src="images/s4.png"/></div><div class="s5"><img src="images/s5.png"/></div><div class="s6"><img src="images/s6.png"/></div><div class="s7"><img src="images/s7.png"/></div><div class="s8"><img src="images/s8.png"/></div><div class="s9"><img src="images/s9.png"/></div>
+    <link rel="stylesheet" type="text/css" href="images/slide14.css" media="screen"/><div class="s1"><img src="images/s1.png" width="1080" height="810" alt=""/></div><div class="s2" onclick="spot0()"><img src="images/s2.png"/></div><div class="s3"><img src="images/s3.png"/></div><div class="s4"><img src="images/s4.png"/></div><div class="s5"><img src="images/s5.png"/></div><div class="s6"><img src="images/s6.png"/></div><div class="hand"><img src="images/hand.png"/></div><div class="pop" onclick="popClose()"><img src="images/pop.png"/></div><div class="popUp" onclick="popUp()"></div><div class="home" onclick="home()"></div>
 </div>
 <div id="divIntro" style="width:auto;display:none;position: fixed; color: #1f1e1e;background-color: lavender; color: #696565;border-radius: 5px; font-family: Arial, Helvetica, sans-serif;font-weight: 600;padding:5px;font-size: 17px;"></div>
 <span id="clickEventDuration" style="display: none;"></span>
@@ -270,7 +270,7 @@
 			window.location.href="../cicabiosp1/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
 		}
 		function spot1() {
-			window.location.href="../cicabiosp4/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+			window.location.href="../cicabiosp12/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
 		}	
 		function spot2() {
 			window.location.href="../cicabiosp7/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
@@ -356,11 +356,11 @@ function handleTouchMove(evt) {
 
     if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/        
         if ( xDiff > 0 ) {
-              window.location.href="../cicabiosp15/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+          //  window.location.href="../cicabiosp15/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
             // console.log("right swipe ");
         } else {
             // console.log("left swipe");
-          //  window.location.href="../cicabiosp7/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+          //  window.location.href="../cicabiosp12/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
         }                       
     } else {
         if ( yDiff > 0 ) {
@@ -419,7 +419,17 @@ var mousex=0;
 
 	<script>
 		function home() {
-			window.location.href="../cicabiosp13/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+			window.location.href="../cicabiosp12/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		function posology() {
+			window.location.href="../cicabiosp11/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		
+		function popUp() {
+			$('.pop').css("display","block");
+		}
+		function popClose() {
+			$('.pop').css("display","none");
 		}
 	</script>
 

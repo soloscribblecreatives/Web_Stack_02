@@ -5,9 +5,9 @@
 
 .spot1 {
   position: absolute;
-  left: 608px;
-  top: 548px;
-  width: 273px;
+  left: 881px;
+  top: 149px;
+  width: 199px;
   height: 193px;
   z-index: 200;
 }
@@ -71,8 +71,8 @@
 
 .s6 {
 	position: absolute;
-  left: 704px;
-  top: 603px;
+  left: 944px;
+  top: 204px;
   width: 80px;
   height: 80px;
 	animation: flashLong 1s infinite;

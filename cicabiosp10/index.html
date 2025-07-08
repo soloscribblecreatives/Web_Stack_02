@@ -259,7 +259,7 @@
 <body style="margin:0px;">
 <input type="hidden" name="" id="pagename" value="index10.html">
 <div id="Stage" class="EDGE-144335490" style="position: fixed;">
-    <link rel="stylesheet" type="text/css" href="images/slide10.css" media="screen"/><div class="s1"><img src="images/s1.png" width="1080" height="810" alt=""/></div><div class="s2" onclick="spot0()"><img src="images/s2.png"/></div><div class="s3" onclick="spot1()"><img src="images/s3.png"/></div><div class="s4"><img src="images/s4.png"/></div><div class="s5"><img src="images/s5.png"/></div><div class="s6"><img src="images/s6.png"/></div><div class="s7"><img src="images/s7.png"/></div><div class="s8"><img src="images/s8.png"/></div>
+    <link rel="stylesheet" type="text/css" href="images/slide10.css" media="screen"/><div class="s1"><img src="images/s1.png" width="1080" height="810" alt=""/></div><div class="s2" onclick="spot0()"><img src="images/s2.png"/></div><div class="s3" onclick="spot1()"><img src="images/s3.png"/></div><div class="s4"><img src="images/s4.png"/></div><div class="s5"><img src="images/s5.png"/></div><div class="s6"><img src="images/s6.png"/></div><div class="s7"><img src="images/s7.png"/></div><div class="s8"><img src="images/s8.png"/></div><div class="posology" onclick="posology()"></div>
 </div>
 <div id="divIntro" style="width:auto;display:none;position: fixed; color: #1f1e1e;background-color: lavender; color: #696565;border-radius: 5px; font-family: Arial, Helvetica, sans-serif;font-weight: 600;padding:5px;font-size: 17px;"></div>
 <span id="clickEventDuration" style="display: none;"></span>
@@ -356,7 +356,7 @@ function handleTouchMove(evt) {
 
     if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/        
         if ( xDiff > 0 ) {
-            window.location.href="../cicabiosp11/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+            window.location.href="../cicabiosp12/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
             // console.log("right swipe ");
         } else {
             // console.log("left swipe");
@@ -418,11 +418,8 @@ var mousex=0;
 	
 
 	<script>
-		function study() {
-			window.location.href="../cicabiosp11/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
-		}	
 		function posology() {
-			window.location.href="../cicabiosp12/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+			window.location.href="../cicabiosp11/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
 		}
 	</script>
 
