@@ -139,7 +139,7 @@
   left: 608px;
   top: 483px;
   width: 316px;
-  height: 81px;
+  height: 83px;
 	animation: fadeInRight 0.5s;
 	animation-delay: 3.9s;
 	animation-fill-mode: both;
@@ -148,9 +148,9 @@
 
 .s13 {
 	position: absolute;
-  left: 641px;
-  top: 578px;
-  width: 110px;
+  left: 629px;
+  top: 577px;
+  width: 150px;
   height: 157px;
 	animation: zoomIn 0.5s;
 	animation-delay: 4.2s;
@@ -161,8 +161,8 @@
 
 .s14 {
 	position: absolute;
-  left: 818px;
-  top: 601px;
+  left: 815px;
+  top: 598px;
   width: 47px;
   height: 133px;
 	animation: zoomIn 0.5s;
