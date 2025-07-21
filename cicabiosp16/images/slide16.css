@@ -33,10 +33,10 @@
 
 .s3 {
 	position: absolute;
-  left: 52px;
-  top: 232px;
-  width: 262px;
-  height: 508px;
+  left: 281px;
+  top: 385px;
+  width: 115px;
+  height: 322px;
 	animation: zoomIn 0.5s;
 	animation-delay: 0.2s;
 	animation-fill-mode: both;
@@ -46,9 +46,9 @@
 
 .s4 {
 	position: absolute;
-  left: 288px;
+  left: 461px;
   top: 530px;
-  width: 756px;
+  width: 583px;
   height: 4px;
 	animation: revealHorizontal 0.5s;
 	animation-delay: 0.7s;
@@ -163,7 +163,7 @@
   }
   
   100% {
-    clip: rect(0px,800px,100px,0px);
+    clip: rect(0px,600px,100px,0px);
 	opacity: 1;
   }
 }

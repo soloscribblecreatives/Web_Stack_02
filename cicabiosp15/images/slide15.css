@@ -12,10 +12,10 @@
 
 .s2 {
   position: absolute;
-  left: 99px;
-  top: 127px;
-  width: 882px;
-  height: 82px;
+  left: 101px;
+  top: 147px;
+  width: 878px;
+  height: 84px;
 	animation: fadeInUp 0.5s;
 	animation-delay: 0.2s;
 	animation-fill-mode: both;
@@ -24,7 +24,7 @@
 
 .s3 {
 	position: absolute;
-  left: 137px;
+  left: 130px;
   top: 314px;
   width: 347px;
   height: 285px;
@@ -36,7 +36,7 @@
 
 .s4 {
 	position: absolute;
-  left: 146px;
+  left: 139px;
   top: 623px;
   width: 340px;
   height: 32px;
@@ -48,7 +48,7 @@
 
 .s5 {
 	position: absolute;
-  left: 609px;
+  left: 602px;
   top: 317px;
   width: 348px;
   height: 284px;
@@ -60,7 +60,7 @@
 
 .s6 {
 	position: absolute;
-  left: 665px;
+  left: 658px;
   top: 624px;
   width: 238px;
   height: 32px;
